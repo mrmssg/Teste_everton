@@ -1,0 +1,73 @@
+body{
+    background-color: black; /* cor do plano de fundo*/
+    background-image: linear-gradient(black, rgb(145, 236, 239));
+    color:aliceblue; /* cor da fonte - texto*/
+}
+
+h1{
+    color:rgb(115, 196, 231); /*cor título principal*/
+    text-shadow: rgb(19, 30, 121) 2px 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; /*alinhamento título principal*/
+    font-size: 2.5rem; /*tamanho da fonte - rem medida em relação a tela*/
+}
+
+img{
+    width: 40%; /* largura da imagem - 40% da tela*/
+    display:flex; /*flexibiliza a posição */
+    margin: auto; /*centraliza a imagem dipondo as margens automaticamente*/
+    border-radius: 600px; /* deixa os cantos da imagem de modo circular*/
+}
+/*configurar texto*/
+p{
+    text-align: justify; /*justifica o texto*/
+    width: 85%; /*ocupa 85 da largura da tela*/ 
+    margin:auto; */distribui a margem igual nos dois lados*/
+    padding-bottom: 2%; 
+    font-size: 1.5rem; /* tamanho da fonte*/
+}
+
+/*configura subtítulo*/
+h2{
+text-align: center;
+color:bisque;
+}
+/* estiliza lista*/
+ul{
+color: bisque;
+margin-top: 2.5rem;
+margin: auto;
+width: 35%;
+text-align: justify;
+font-size: 1.5rem;
+}
+
+.titulo_final{
+    text-align: left;
+    color:black;
+    font-size: 1rem;
+}
+.texto_final{
+    text-align: left;
+    width: 100%;
+    color:black;
+    font-size: 1rem;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    text-align: right;
+    justify-content: space-between;
+    transition: all 0.3s;
+    width: 30%;
+}
+a{
+    color:#eeba30;
+    text-decoration:none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    color:rgb(234, 32, 10);
+}
